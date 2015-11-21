@@ -20,11 +20,13 @@ public GameObject KryingKimGO;
 public GameObject FryGO; 
 //public var ScoreWord : UI.Text;
 public Text ScoreText;
-private int NumScore; 
+private int NumScore;
+private AudioSource HotlineBling;
 
 
 	// Use this for initialization
 	void Start () {
+		PlaySong();
 	}
 	
 	// Update is called once per frame
@@ -42,9 +44,14 @@ public void IncreaseScore () {
  }
 
  public void SpecialPointScore () {
- 	NumScore = NumScore + 1688;
+ 	NumScore = NumScore + 1698;
  	ScoreText.text = NumScore.ToString ();
+ }
 
+ public void PlaySong () {
+ 	HotlineBling = GetComponent<AudioSource>();
+ 	HotlineBling.time = 33;
+ 	HotlineBling.Play();
  }
 
 }
