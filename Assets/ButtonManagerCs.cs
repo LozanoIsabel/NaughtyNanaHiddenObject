@@ -2,7 +2,6 @@
 using System.Collections;
 using UnityEngine.UI;
 
-
 public class ButtonManagerCs : MonoBehaviour {
 
 public Button FryButton;
@@ -17,7 +16,8 @@ public GameObject PterodactylKimGO;
 public GameObject KanyeGO;
 public GameObject KylieGO;
 public GameObject KryingKimGO;
-public GameObject FryGO; 
+public GameObject FryGO;
+
 //public var ScoreWord : UI.Text;
 public Text ScoreText;
 private int NumScore;
@@ -31,10 +31,6 @@ private AudioSource HotlineBling;
 	
 	// Update is called once per frame
 	void Update () {
-	if (!FryButton.isActiveAndEnabled && !KimButton.isActiveAndEnabled && !KylieButton.isActiveAndEnabled)
-		print("Congratulations!");
-		
-
 	}
 
 public void IncreaseScore () {
@@ -44,7 +40,7 @@ public void IncreaseScore () {
  }
 
  public void SpecialPointScore () {
- 	NumScore = NumScore + 1698;
+ 	NumScore = NumScore + 1488;
  	ScoreText.text = NumScore.ToString ();
  }
 
@@ -53,5 +49,12 @@ public void IncreaseScore () {
  	HotlineBling.time = 33;
  	HotlineBling.Play();
  }
+
+public void Living () {
+
+//if(!LR_Kim2KryingGO.isActive && !LR_PterodactylKimGO.isActive && !LR_KanyeGO.isActive && !LR_KylieGO.isActive && !LR_FryGO.isActive)
+//print("Congratulations");
+
+}
 
 }

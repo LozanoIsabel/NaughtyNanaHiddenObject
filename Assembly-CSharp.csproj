@@ -45,7 +45,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BackyardCanvas.cs" />
      <Compile Include="Assets\ButtonManagerCs.cs" />
+     <Compile Include="Assets\KitchenCanvas.cs" />
+     <Compile Include="Assets\LivingCanvas.cs" />
+     <Compile Include="Assets\MainCanvas.cs" />
+     <Compile Include="Assets\TheatreCanvas.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
