@@ -6,7 +6,7 @@ public class ButtonManagerCs : MonoBehaviour {
 
 public Button FryButton;
 public Button KylieButton;
-public Button KimButton;
+public Button KryingKimButton;
 public Button StartButton;
 public Button PterodactylKim;
 public Button Kim2Krying;
@@ -22,6 +22,7 @@ public GameObject FryGO;
 public Text ScoreText;
 private int NumScore;
 private AudioSource HotlineBling;
+private AudioSource TrapQueen;
 
 
 	// Use this for initialization

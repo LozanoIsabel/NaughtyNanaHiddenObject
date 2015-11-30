@@ -19,6 +19,7 @@ public GameObject Kitchen_FryGO;
 public Text ScoreText;
 private int NumScore;
 private AudioSource HotlineBling;
+private AudioSource TrapQueen;
 
 
 	// Use this for initialization
@@ -44,5 +45,11 @@ public void IncreaseScore () {
  	HotlineBling = GetComponent<AudioSource>();
  	HotlineBling.time = 33;
  	HotlineBling.Play();
+ }
+
+ public void PlayWinningSong () {
+ 	TrapQueen = GetComponent<AudioSource>();
+ 	TrapQueen.time = 17;
+ 	TrapQueen.Play();
  }
 }
