@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{8FA9B061-D949-E68D-7797-F099F37AD58E}") = "NaughtyNanaHiddenObject", "Assembly-CSharp.csproj", "{711BE818-0E58-7E15-4233-F035EAC5D86C}"
+Project("{8FA9B061-D949-E68D-7797-F099F37AD58E}") = "NaughtyNanaHiddenObject", "Assembly-CSharp-vs.csproj", "{711BE818-0E58-7E15-4233-F035EAC5D86C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,7 +17,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																																GlobalSection(MonoDevelopProperties) = preSolution
+																																																																	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
